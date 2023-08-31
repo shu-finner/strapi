@@ -4,7 +4,6 @@ require("dotenv").config({
 
 module.exports = {
   plugins: [
-    "gatsby-plugin-gatsby-cloud",
     "gatsby-plugin-postcss",
     {
       resolve: "gatsby-source-strapi",
